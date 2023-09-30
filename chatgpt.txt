@@ -1,0 +1,7 @@
+<div id="car-img" class="btn"><a href="#">Car Image</a></div>
+
+<div id="view" class="preview" style="background: url('./Images/car.jpg');"></div>
+
+----------
+
+when the #car-img is clicked it's background should be set as the background of .preview div
