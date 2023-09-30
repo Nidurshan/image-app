@@ -24,14 +24,14 @@ function setPreviewImage (image) {
     var computedStyle = getComputedStyle(image);
     var backgroundImage = computedStyle.getPropertyValue("background-image");
     previewImage.style.backgroundImage = backgroundImage;
-}
+};
 
 // Image click
 images.forEach(image => {
     image.addEventListener('click', () => {
         setPreviewImage(image);
-    })
-})
+    });
+});
 
 // Buttons click
 btns.forEach(btn => {
@@ -39,5 +39,5 @@ btns.forEach(btn => {
         var btnName = btn.id.split('-')[0];
         var image = document.getElementById(`${btnName}-image`)
         setPreviewImage(image);
-    })
-})
+    });
+});

@@ -13,9 +13,10 @@ body{
     text-align: center;
     text-transform: uppercase;
     padding-top: 60px;
-    font-weight: 900;
+    font-weight: lighter;
     top: 15%;
     color: #ffffff;
+	padding: 40px;
 }
 
 .container {
@@ -24,6 +25,7 @@ body{
 	flex-wrap: wrap;
 	justify-content: space-around;
     margin: 0 auto;
+	padding-top: 30px;
 }
 .container .btn {
 	position: relative;
@@ -88,7 +90,6 @@ body{
 	bottom: -5px;
 	width: 30px;
 	height: 10px;
-	background: #f00;
 	border-radius: 10px;
 	transition: 0.5s;
 	transition-delay: 0.5;
